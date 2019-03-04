@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+}
+
+.myEditor {
+  height: 50vh;
+  max-height: 50vh;
+  padding: 15px;
+  width: 35vw;
+  max-width: 35vw;
+  max-width: 35vw;
+  border: 1px black solid;
+  background-color: #1d1f20;
+  color: white;
+}
+
+.myPreviewer {
+  border: 1px rgba(5, 105, 136, 0.685) solid;
+  box-shadow: 2px 2px;
+  width: 35vw;
+  height: 50vh;
+
+  background-color: #f6bf77b2;
+  overflow-x: auto;
+  padding: 15px;
+}
+.myPreviewer img {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.editor-wrapper {
+  display: flex;
+  display: block;
+  flex-direction: column;
+  width: 35vw;
+}
+
+.toolbar {
+  display: block;
+  border: 1px solid black;
+  margin: 0;
+  width: 35vw;
+  padding: 0 15px;
+}
+
+.previewer-wrapper {
+  display: flex;
+  display: block;
+  flex-direction: column;
+  width: 35vw;
+  margin-left: 10vw;
+}
+
+.toolbar2 {
+  display: block;
+  border: 1px solid black;
+  margin: 0;
+  width: 35vw;
+  padding: 0 15px;
+}
